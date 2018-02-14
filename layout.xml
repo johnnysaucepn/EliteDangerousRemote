@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout orientation="portrait">
+	<row weight="4">
+		<tabs>
+			<tab text="Combat" color="red">
+				<row>
+					<button text="Threat" ontap="threattarget" />				
+					<button text="Previous" ontap="previoustarget" />
+					<button text="Next" ontap="nexttarget" />
+				</row>
+				<row>
+					<button text="Previous Subsystem" ontap="previoussubsystem" />
+					<button text="Next Subsystem" ontap="nextsubsystem" />
+				</row>
+				<row color="orange">
+					<button text="Heat Sink" ontap="heatsink" />
+					<button text="Chaff" ontap="chaff" />
+					<button text="Shield Cell" ontap="shieldcell" />
+				</row>
+				<row color="purple">
+					<button text="Silent Running" ontap="silent" />
+					<button text="Hardpoints" ontap="hardpoints" />
+				</row>
+			</tab>
+			<tab text="Cruise" color="purple">
+				<row color="red">
+					<button text="Previous" ontap="previoustarget" />
+					<button text="Next" ontap="nexttarget" />
+					<button text="Destination" ontap="destination" />
+				</row>
+			</tab>
+			<tab text="Local" color="blue">
+				<row color="red">
+					<button text="Previous" ontap="previoustarget" />
+					<button text="Next" ontap="nexttarget" />
+					<button text="Destination" ontap="destination" />
+				</row>
+				<row color="orange">
+					<button text="Heat Sink" ontap="heatsink" />
+				</row>
+				<row color="purple">
+					<button text="Silent Running" ontap="silent" />
+					<button text="Cargo Hatch" ontap="cargo" />
+					<button text="Lights" ontap="lights" />
+					<button text="Landing Gear" ontap="landing" />	
+					<button text="Hardpoints" ontap="hardpoints" />
+				</row>
+			</tab>
+			<tab text="Wing" color="green">
+			</tab>
+		</tabs>
+	</row>
+		
+	<row color="green" weight="1">
+		<button text="SYS" ontap="sys" />
+		<button text="ENG" ontap="eng" />
+		<button text="WEP" ontap="wep" />
+		<button text="Balance" ontap="balance" />
+	</row>	
+</layout>

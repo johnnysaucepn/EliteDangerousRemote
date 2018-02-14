@@ -1,0 +1,20 @@
+threattarget: h
+previoustarget: f
+nexttarget: g
+destination: numlock
+previoussubsystem: shift y
+nextsubsystem: y
+jump: j
+heatsink: v
+chaff: c
+shieldcell: b
+cargo: home
+lights: l
+landing: shift g
+silent: delete
+hardpoints: u
+sys: left
+eng: up
+wep: right
+balance: down
+
